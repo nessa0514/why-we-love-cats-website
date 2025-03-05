@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>shitty</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      header {
+        background-color: rgb(236, 250, 154);
+        width: 100%;
+        margin: 0;
+        padding: 5px 0;
+        border: 2px solid black;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15pt;
+        position: fixed;
+        top: 0;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      li a {
+        text-decoration: none;
+        color: hsl(259, 100%, 31%);
+        font-weight: bold;
+      }
+
+      body {
+        background-color: whitesmoke;
+        display: flexbox;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      div section {
+        margin: 25px auto;
+        padding: 18px;
+        border-radius: 8px;
+        box-shadow: 0px 15px 20px 2px rgba(0, 0, 0, 0.75);
+        max-width: 600px;
+      }
+
+      section h2 {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-align: center;
+      }
+
+      div#cats {
+        background-color: cornflowerblue;
+      }
+
+      div#love-of-cats {
+        background-color: cadetblue;
+      }
+
+      div#contact {
+        background-color: burlywood;
+      }
+
+      div#questions {
+        background-color: pink;
+      }
+
+      div.break {
+        border-bottom: 4px solid black;
+        margin: 10px 0;
+        max-width: 600px;
+        height: 0;
+        padding: 0;
+        background: none;
+      }
+
+      img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border: 3px dotted white;
+        justify-content: center;
+      }
+
+      #cats {
+        background-color: cornflowerblue;
+      }
+
+      #love-of-cats {
+        background-color: cadetblue;
+      }
+
+      #love-of-cats ol {
+        list-style: decimal;
+      }
+
+      #contact {
+        background-color: burlywood;
+      }
+
+      #questions {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#cats">Cats</a></li>
+          <li><a href="#love-of-cats">Love of Cats</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#questions">Questions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <section id="cats">
+        <h2>Cats</h2>
+
+        <img
+          src="https://img.freepik.com/free-vector/simple-vibing-cat-square-meme_742173-4493.jpg"
+          alt="image of a cat"
+        />
+
+        <p>
+          The cat, also referred to as the domestic cat or house cat, is a small
+          domesticated carnivorous mammal. It is the only domesticated species
+          of the family Felidae. Advances in archaeology and genetics have shown
+          that the domestication of the cat occurred in the Near East around
+          7500 BC.
+          <a href="https://en.wikipedia.org/wiki/Cat" target="_blank"
+            >[Wikipedia]</a
+          >
+        </p>
+      </section>
+    </div>
+
+    <div class="break"></div>
+
+    <div>
+      <section id="love-of-cats">
+        <h2>Why do we love cats?</h2>
+
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4_OnnNWRipITQo-bd-dGcXJzonSdG-M8YmQ&s"
+          alt="image of a cat meme"
+        />
+
+        <p>Why do we love cats?</p>
+
+        <ol>
+          <li>They speak to you.</li>
+          <li>They are cleaning machines.</li>
+          <li>They’re chilled.</li>
+          <li>Petting them feels good.</li>
+          <li>They help you release the love hormone.</li>
+        </ol>
+      </section>
+    </div>
+
+    <div class="break"></div>
+
+    <div>
+      <section id="contact">
+        <h2>Contact</h2>
+
+        <img
+          src="https://media.tenor.com/pOGPqDU93s0AAAAM/cat-phone-cat.gif"
+          alt="gif of a cat on a phone"
+        />
+
+        <br />
+        <a href="tel=+1868730STFU">🤳Phone</a><br />
+        <a href="mailto=blueberries&gummies@gmail.com">📧 Email</a>
+      </section>
+    </div>
+
+    <div class="break"></div>
+
+    <div>
+      <section id="questions">
+        <h2>Questions?</h2>
+
+        <img
+          src="https://media3.giphy.com/media/qZgHBlenHa1zKqy6Zn/200w.gif?cid=6c09b952b5c8ogquh4abj16f4vfiw2bg18h8d0s5qg2vp6ez&ep=v1_gifs_search&rid=200w.gif&ct=g"
+          alt="gif of a confused cat"
+        />
+
+        <br />
+        <form action="mailto=aa.fariah.ml@gmail.com">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="type name here~" /><br /><br />
+
+          <label for="message">Message:</label>
+          <input type="text" placeholder="type message here~" />
+
+          <br /><br />
+          <button type="submit">Submit!</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
